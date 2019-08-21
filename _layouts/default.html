@@ -19,7 +19,20 @@
   {% include footer.html %}
 
 {% include scripts.html %}
-</body>
+
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '668631333599482',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v4.0'
+    });
+  };
+</script>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+  
+  </body>
 
 </html>
 
